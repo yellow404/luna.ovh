@@ -1,0 +1,230 @@
+@font-face
+{
+    font-family: 'haxrcorp';
+    src: url('haxrcorpttf.woff');
+}
+
+input {
+	font-family: haxrcorp, monospace;
+	font-size: 15px;
+}
+
+body{
+	font-family: haxrcorp, monospace;
+	font-size: 15px;
+	background-color: #292929;
+}
+
+.maincontainer {
+	width: 672px;
+	height: 319px;
+	position: absolute;
+	top: 0px;
+	bottom: 200px;
+    left: 0px;
+    right: 400px;
+    margin: auto;
+	background-color: transparent;
+}
+
+.main {
+	border-style: solid;
+	border-width: 2px;
+	border-color: #1c1c1c;
+	position: absolute;
+	top: -2px;
+    width: 1072px;
+	height: 600px;
+    left: -2px;
+    right: 190px;
+    margin: auto;
+	background-color: #FFFFFF;
+	text-align: center;
+}
+
+.maincontents {
+	width: 100%;
+	height: 100%;
+}
+
+.button {
+	width: 24px;
+	height: 24px;
+	float: left;
+	margin-right: 4px;
+	border-style: solid;
+	border-width: 2px;
+	border-color: #1c1c1c;
+	background-color: #ffffff;
+}
+
+.button: hover {
+	background-color: #aaaaaa!important;
+}
+
+.searchbar {
+	border-style: solid;
+	border-width: 2px;
+	border-color: #1c1c1c;
+    width: auto;
+	height: 24px;
+	background-color: #FFFFFF;
+	overflow: hidden;
+}
+
+.searchinput {
+	line-height: 26px;
+	height: 24px;
+	top: -2px;
+	position: relative;
+	margin-left: 2px;
+	margin-right: 2px;
+	width: 200%;
+	border: none;
+	font-family: haxrcorp, monospace;
+	font-size: 30px;
+	padding-bottom: 0px;
+	padding-top: 0px;
+	padding-left: 4px;
+	padding-right: 4px;
+	outline: none;
+}
+
+.searchinput: focus {
+	outline: none;
+	border: none;
+}
+
+.marqueebar {
+	border-style: solid;
+	border-width: 4px;
+	border-color: #1c1c1c;
+    width: 600px;
+	height: 24px;
+	line-height: 24px;
+	float: right;
+	margin-left: 4px;
+	background-color: #FFFFFF;
+	overflow: hidden;
+}
+
+.marquee2 {
+  overflow: hidden;
+  width: 592px;
+  height: 200%;
+  margin: 0;
+  padding-left: 4px;
+  padding-right: 4px;
+  top: 2px;
+  line-height: 24px;
+  position: absolute;
+  text-align: center;
+}
+
+.bottomcontainer {
+	width: 1076px;
+	height: 24px;
+	position: absolute;
+	left: -2px;
+	top: 605px;
+}
+
+.sidebar {
+	border-style: solid;
+	border-width: 2px;
+	border-color: #1c1c1c;
+	position: relative;
+	top: -192px;
+	bottom: 200px;
+    width: 129px;
+	height: 631px;
+    left: 1084px;
+	background-color: #FFFFFF;
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.time {
+	color: #FFFFFF;
+	font-family: haxrcorp, monospace;
+	font-size: 32px;
+	position: absolute;
+	top: -36px;
+    width: auto;
+	height: auto;
+    left: 4px;
+}
+
+.welcome {
+	line-height: 36px;
+	font-family: haxrcorp, monospace;
+	font-size: 48px;
+	position: absolute;
+	top: 80px;
+	width: 300px;
+	left: 0px;
+	right: 0px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.bookmarkscontainer {
+	width: auto;
+	top: 280px;
+	position: relative;
+    display: inline-block;
+}
+
+.marquee-text{
+	
+	position: absolute;
+	top: 2px;
+	padding-left: 4px;
+	padding-right: 4px;
+}
+
+ul {
+	width: 250px;
+	list-style-type: none;
+	float: left;
+	padding-left: 0px;
+	padding-right: 0px;
+	margin-left: 18px;
+	margin-right: 18px;
+}
+
+li {
+	text-align: left;
+	padding-left: 12px;
+	padding-right: 12px;
+	height: 32px;
+	line-height: 32px;
+}
+
+li: hover {
+	background-color: #eeeeee;
+}
+
+a {
+	text-decoration: none;
+	font-size: 32px;
+	height: 24px;
+	line-height: 24px;
+	color: #1c1c1c;
+}
+
+a: hover {
+	text-decoration: underline;
+}
+
+.clink {
+	font-size: 16px;
+	text-decoration: none;
+	line-height: 16px;
+	color: #1c1c1c;
+}
+
+.clink: hover{
+	text-decoration: underline;
+}

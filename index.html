@@ -1,0 +1,80 @@
+<html>
+	<head>
+		<meta charset="UTF-8" />
+		<title>luna</title>
+		<script type="text/javascript" src="jquery-1.11.3.min.js"></script>
+		<link rel="stylesheet" type="text/css" href="main.css"/>
+		<script type="text/javascript">
+		
+			function show( show1 ) {
+			  document.getElementById(show1).style.display="block";
+			}
+			function hide( hide1 ) {
+			  document.getElementById(hide1).style.display="none";
+			}
+			function tog( tog1 ) {
+			  document.getElementById(tog1).style.backgroundColor="#777777";
+			}
+			function toh( toh1 ) {
+			  document.getElementById(toh1).style.backgroundColor="#ffffff";
+			}
+		</script>
+	</head>
+	<body>
+		<div class="maincontainer">
+			<div class="bottomcontainer">
+				<div class="button" id="btn1" onclick = "show('main1');hide('main2');tog('btn1');toh('btn2');"></div>
+				<div class="button" id="btn2" onclick = "show('main2');hide('main1');tog('btn2');toh('btn1');"></div>
+				<div class="searchbar">
+					<form name="form1" action="https://duckduckgo.com/?q=search" target="_blank" method="get" >
+						<input type="text" autocomplete="off" placeholder="search..." name="q" class="searchinput"></input>
+					</form>
+				</div>
+			</div>
+			<div class="time" id="time">
+				<script>
+					//document.getElementById("main").innerHTML = Date();
+					function updateClock() {
+						var days = ['SUNDAY','MONDAY','TUESDAY','WEDNESDAY','THURSDAY','FRIDAY','SATURDAY'];
+						var m = new Date();
+						var dateString =
+						  m.getFullYear() +"/"+
+						  ("0" + (m.getMonth()+1)).slice(-2) +"/"+
+						  ("0" + m.getDate()).slice(-2) + " " +
+						  (days[ m.getDay() ]) + " " +
+						  ("0" + m.getHours()).slice(-2) + ":" +
+						  ("0" + m.getMinutes()).slice(-2) + ":" +
+						  ("0" + m.getSeconds()).slice(-2);
+						
+						// set the content of the element with the ID time to the formatted string
+						document.getElementById('time').innerHTML = dateString;
+
+						// call this function again in 1000ms
+						setTimeout(updateClock, 1000);
+					}
+					updateClock(); // initial call
+				</script>
+			</div>
+			<div class="main" id="main1">
+				<div class="welcome">luna</div>
+				<div class="bookmarkscontainer">
+					<ul>
+						<li><a href="https://anime.luna.ovh/">anime (auth required)</a></li>
+						<li><a href="https://files.luna.ovh/private">files (private uploads)</a></li>
+						<li><a href="https://files.luna.ovh/private/vpn/Luna.conf">wireguard (auth required)</a></li>
+						<li><a href="https://metadata.luna.ovh/">metadata (server)</a></li>
+						<li><a href="https://torrent.luna.ovh/">torrent (server)</a></li>
+					</ul>
+					<ul>
+					    <li><a href="https://files.luna.ovh/">files (personal uploads)</a></li>
+						<li><a href="https://send.luna.ovh/">send (file sharing)</a></li>
+						<li><a href="https://speed.luna.ovh/">speed test</a></li>
+						<li><a href="https://yellow.luna.ovh/">yellow (personal site)</a></li>
+						<li><a href="https://yt.luna.ovh/">youtube proxy</a></li>
+					</ul>
+				</div>
+				<div class="sidebar" style="background-image: url(sidebar.jpg);"></div>
+			</div>
+		</div>
+	</body>
+</html>
