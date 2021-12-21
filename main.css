@@ -58,7 +58,7 @@ body{
 	background-color: #ffffff;
 }
 
-.button: hover {
+.button:hover {
 	background-color: #aaaaaa!important;
 }
 
@@ -90,7 +90,7 @@ body{
 	outline: none;
 }
 
-.searchinput: focus {
+.searchinput:focus {
 	outline: none;
 	border: none;
 }
@@ -202,7 +202,7 @@ li {
 	line-height: 32px;
 }
 
-li: hover {
+li:hover {
 	background-color: #eeeeee;
 }
 
@@ -214,7 +214,7 @@ a {
 	color: #1c1c1c;
 }
 
-a: hover {
+a:hover {
 	text-decoration: underline;
 }
 
@@ -225,6 +225,6 @@ a: hover {
 	color: #1c1c1c;
 }
 
-.clink: hover{
+.clink:hover{
 	text-decoration: underline;
 }
