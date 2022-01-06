@@ -12,7 +12,7 @@ input {
 body{
 	font-family: haxrcorp, monospace;
 	font-size: 15px;
-	background-color: #292929;
+	background-color: #faf0d3;
 }
 
 .maincontainer {
@@ -30,7 +30,7 @@ body{
 .main {
 	border-style: solid;
 	border-width: 2px;
-	border-color: #1c1c1c;
+	border-color: #93a1a1;
 	position: absolute;
 	top: -2px;
     width: 1072px;
@@ -38,7 +38,7 @@ body{
     left: -2px;
     right: 190px;
     margin: auto;
-	background-color: #FFFFFF;
+	background-color: #fdf6e3;
 	text-align: center;
 }
 
@@ -54,8 +54,8 @@ body{
 	margin-right: 4px;
 	border-style: solid;
 	border-width: 2px;
-	border-color: #1c1c1c;
-	background-color: #ffffff;
+	border-color: #93a1a1;
+	background-color: #fdf6e3;
 }
 
 .button:hover {
@@ -65,10 +65,10 @@ body{
 .searchbar {
 	border-style: solid;
 	border-width: 2px;
-	border-color: #1c1c1c;
+	border-color: #93a1a1;
     width: auto;
 	height: 24px;
-	background-color: #FFFFFF;
+	background-color: #fdf6e3;
 	overflow: hidden;
 }
 
@@ -98,13 +98,13 @@ body{
 .marqueebar {
 	border-style: solid;
 	border-width: 4px;
-	border-color: #1c1c1c;
+	border-color: #93a1a1;
     width: 600px;
 	height: 24px;
 	line-height: 24px;
 	float: right;
 	margin-left: 4px;
-	background-color: #FFFFFF;
+	background-color: #fdf6e3;
 	overflow: hidden;
 }
 
@@ -132,21 +132,21 @@ body{
 .sidebar {
 	border-style: solid;
 	border-width: 2px;
-	border-color: #1c1c1c;
+	border-color: #93a1a1;
 	position: relative;
 	top: -192px;
 	bottom: 200px;
     width: 129px;
 	height: 631px;
     left: 1084px;
-	background-color: #FFFFFF;
+	background-color: #fdf6e3;
 	background-position: center center;
 	background-repeat: no-repeat;
 	background-size: cover;
 }
 
 .time {
-	color: #FFFFFF;
+	color: #839496;
 	font-family: haxrcorp, monospace;
 	font-size: 32px;
 	position: absolute;
@@ -211,7 +211,7 @@ a {
 	font-size: 32px;
 	height: 24px;
 	line-height: 24px;
-	color: #1c1c1c;
+	color: #839496;
 }
 
 a:hover {
@@ -222,7 +222,7 @@ a:hover {
 	font-size: 16px;
 	text-decoration: none;
 	line-height: 16px;
-	color: #1c1c1c;
+	color: #93a1a1;
 }
 
 .clink:hover{
